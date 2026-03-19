@@ -17,4 +17,33 @@ list_1 = ["mvave", "joyo"]
 set_1.update(list_1)
 THISSET.remove(1)
 
-# join sets 
+print('JOIN SETS_')
+# join sets ''
+
+set_2 = {"compress", "IR", "EQ"}
+
+set_3 = set_1.union(set_2)
+print(set_3)
+sett = set_1 | set_2
+print(sett)
+
+allset = set_1.union(set_2, set_3, data_1, data_2)
+print(allset)
+allsetset = set_1 | set_2 |set_3
+print(allsetset)
+
+z = set_1.union(list_1)
+print(z)
+
+
+
+
+
+
+
+
+
+
+
+
+
