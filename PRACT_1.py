@@ -15,3 +15,6 @@ print(data_1)
 set_1 = {"ds", "ov", "preamp"}
 list_1 = ["mvave", "joyo"]
 set_1.update(list_1)
+THISSET.remove(1)
+
+# join sets 
