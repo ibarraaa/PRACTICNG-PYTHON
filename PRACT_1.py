@@ -2,7 +2,7 @@ THISSET = {1, 2, 3, 4, 5, 0}
 for x in THISSET:
     print(x)
     print(1 in THISSET)
-    print(1 not in THISSET)
+    print(1 not in THISSET)  
     
 THISSET.add(90)  
 print(THISSET)  
