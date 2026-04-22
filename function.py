@@ -68,9 +68,25 @@ def myargs(*kids):
 myargs("emil", "Tobias", "linus")
 
 
+def mykwargs(**kids):
+    print("his last name is " + kids["lname"])
+    
+mykwargs(fname = "tobias", lname = "refsnes")
 
 
+def bothArgs(title, *args, **kwargs):
+    print("title:", title)
+    print("positional argument:", args)
+    print("keyword argument:", kwargs)
+    
+bothArgs("user info", "Emil", "Tobias", age = 25, city = "oslo")
 
+def unfuck(a, b, c):
+    return a + b + c
+    
+numbers = [1, 2, 3]
+result = unfuck(*numbers)
+print(result)
 
 
 
